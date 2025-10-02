@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 2px solid grey;
+}
+.logocontainer{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+header img{
+    height: 60%;
+    margin: auto 0 auto 0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.linkbox{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+.actual{
+    color: grey;
+}
+.titlebox{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+.title{
+    font-size: 64px;
+    margin: 0;
+}
+.newbox{
+    width: 80%;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+.date{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 20px;
+    width: 75px;
+}
+.content{
+    width: 48%;
+}
+.content h2{
+    color:#841844;
+}
+.image{
+    width: 48%;
+    display: flex;
+}
+.back{
+    height: 40px;
+    background-color: white;
+    border: 2px solid #9B407A;
+    border-radius: 20px;
+    color: #841844;
+}
+.back:hover{
+    background-color: #841844;
+    color: white;
+}
+.back::before{
+    content: '⟵';
+}
+.image img{
+    width: 70%;
+    object-fit: cover;
+    height: 100%;
+    margin: auto;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+}
+.foottext{
+    width: 80%;
+    height: 100%;
+    border-top: 2px solid grey;
+    margin: 0 auto 0 auto;
+}
