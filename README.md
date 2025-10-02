@@ -1,0 +1,1 @@
+http://akoshcfg.beget.tech/
